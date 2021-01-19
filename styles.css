@@ -1,10 +1,12 @@
 html{
-    background-color: #dcdcdc;
+    background-color: #6ec2fa;
 }
+
 body{
     display: flex;
     flex-direction: column;
 }
+
 nav{
     min-height: 100px;
     display: flex;
@@ -12,30 +14,35 @@ nav{
     align-items: center;
     background-color:#CACACA; 
 }
+
 footer{
-    min-height: 100px;
+    min-height: 100px; 
     background-color: #B9C6E1;
     display: flex;
     justify-content: center;
 }
+
 .logo{
     font-size: 25px;
     padding: 20px
 }
+
 section{
-    background: #88D7FF;
+    background: #81abc0;
     min-height: 200px;
     display: flex; 
     flex-direction: column;
     align-items: stretch;
     margin : 20px
 }
+
 header{
     padding: 30px;
-    background-color: #4BA0CA;
+    background-color: #7ed4ff;
     font-size: 20px;
     text-align: center;
 }
+
 article{
     margin: auto;
 }
